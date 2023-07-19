@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/yonchat"
+        android:layout_margin="25dp"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_background"
+        android:height="50dp"
+        android:paddingLeft="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_logo"
+        android:hint="Email"
+        android:layout_marginHorizontal="50dp"/>
+
+    <EditText
+        android:id="@+id/edit_senha"
+        android:background="@drawable/edit_background"
+        android:height="50dp"
+        android:paddingLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_email"
+        android:hint="Senha"
+        android:layout_marginHorizontal="50dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_senha"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:layout_margin="20dp"
+            android:width="120dp"
+            android:textColor="@color/white"
+            android:text="Entrar"/>
+        <Button
+            android:id="@+id/btn_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:layout_margin="20dp"
+            android:width="120dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="Cadastre-se" />
+    </LinearLayout>
+
+</RelativeLayout>

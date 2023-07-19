@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "191785358604",
+    "project_id": "yonchatbeta",
+    "storage_bucket": "yonchatbeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191785358604:android:3723d2e6b077a9ee7b2529",
+        "android_client_info": {
+          "package_name": "com.example.yonchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191785358604-su9gvhv3lcsvehu0ips96oert8ijtl7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yonchat",
+            "certificate_hash": "53b7f939d7e8cf41da1dc59872b9e96b04b8961a"
+          }
+        },
+        {
+          "client_id": "191785358604-8pjkbdo8pfjo5kev3dhk7jhsscbrq0rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWobgUikehLcHaWO67MsPRjecu5MJutdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191785358604-8pjkbdo8pfjo5kev3dhk7jhsscbrq0rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
